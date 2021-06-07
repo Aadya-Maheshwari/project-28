@@ -3,8 +3,8 @@ class Luancher{
         var options={
             bodyA:bodyA,
             pointB:pointB,
-            stiffeness:0.004,
-            lenght:10
+            stiffness:0.004,
+            length:10
         }
         this.pointB=pointB;
         this.sling=Constraint.create(options);
@@ -22,7 +22,7 @@ class Luancher{
             var pointB = this.pointB;
             //stroke(44,28,2);
             strokeWeight(4);
-            line(pointA.x,pointA.y,pointB.x,point.y);
+            line(pointA.x,pointA.y,pointB.x,pointB.y);
         }
     }
 }
